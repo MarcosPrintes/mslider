@@ -1,0 +1,41 @@
+/**
+  primary_dark:; #343434; 
+  secondary_dark: #454545
+  light: #6f6f6f;
+  green: #546130;
+
+  dots banner: bg opacit 75%;
+**/
+*,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+}
+.slider{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer;
+  overflow: hidden;
+}
+.slider .slider-track {
+  position: relative;
+}
+
+.slider  .slider-track:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slider-track div {
+  float: left;
+}
+.slider-track div img{
+  width: 100%;
+}
+
