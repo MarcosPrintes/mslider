@@ -1,5 +1,5 @@
 # DOT Challenge
 
-Demo do projeto em
+Demo:
 
 (http://dotchallenge.surge.sh/).
